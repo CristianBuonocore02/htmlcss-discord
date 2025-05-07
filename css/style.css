@@ -180,8 +180,13 @@ img {
 .divisore img {
   width: 100%;
   padding-top: 30px;
-  filter: brightness(0) saturate(100%) invert(99%) sepia(10%) saturate(428%) hue-rotate(292deg) brightness(85%) contrast(84%);
+  filter: brightness(0) saturate(100%) invert(88%) sepia(0%) saturate(0%) hue-rotate(277deg) brightness(96%) contrast(87%);
 
+}
+
+.divisore h1 {
+  background-color: #9a9898;
+  text-align: center;
 }
 
 .divisoreRevert img {
@@ -258,7 +263,7 @@ h1 {
 
 .blocco-grigio {
   padding: 10px 0px;
-  background-color: rgb(203, 200, 200);
+  background-color: rgb(210 210 210);
 
   fill: #d4d4d4;
   background-size: cover;
@@ -271,8 +276,83 @@ h1 {
   width: 100%;
 }
 
+.quadrato-verde {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 0px;
+}
+
+.quadrato-verde img {
+  height: 80%;
+}
+
+.adventure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 20px;
+
+}
+
+.adventure button {
+  background-color: #8da1e0;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+.adventure {
+  background-image: url("../assets-discord/stars.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.adventure a {
+  color: white;
+}
+
+.imgText {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white
+}
+
+.imgText img {
+  width: 20px;
+}
+
+.icon {
+  display: flex;
+  gap: 1rem;
+  color: white;
+}
+
+.imgText p {
+  font-size: 10px;
+}
+
+.quadrato-pesca h2,
+.quadrato-colonne span {
+  color: #8da1e0;
+  font-weight: 900;
+}
+
+.quadrato-colonne ul {
+  list-style: none;
+  font-size: small;
+  line-height: 20px;
+  color: white;
+}
+
 .blocco-nero {
-  padding: 10px 0px;
+  padding: 50px 0px;
+  background-color: #24272b;
+
 }
 
 .divisione-qc {
@@ -316,9 +396,16 @@ h1 {
 .blocco-nero2 {
   width: 100%;
   padding: 10px;
+  background-color: #24272b;
 
 }
 
+.hr-viola {
+  border: 1px solid #3160e0;
+  width: 80%;
+  margin: 0 auto;
+
+}
 
 .footer-info {
   padding: 10px 0px;
@@ -362,4 +449,17 @@ h1 {
 .footer-info {
   display: flex;
   justify-content: space-between;
+}
+
+.footer-login {
+  border: 1px solid white;
+  background-color: #3160e0;
+  border-radius: 20px;
+  padding: 0 15px;
+
+
+}
+
+.footer-login a {
+  color: white;
 }
